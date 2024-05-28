@@ -2,15 +2,15 @@
 
 ### By Tom Shabalin, Dor Harizi and Shai Moshe
 
-The main goal for this project is to try find good solution of small drone, flying inside indoor building without getting hit and crash.
-The project fully autonomous 2d drone simulator, this simulator is trying to be realistic as much as it can, with lidar sensors,gyroscope sensor ,optical flow sensor and speed sensor.
-We add a little bit noise to each sample to make it more realistic approach.
-Basic API with real-time info and also manual controlling.
-We also implemented kind of area mapping when the drone fly.
-This project written in Java.
+The primary objective of this project is to develop an effective solution for a small drone to navigate indoors without collisions. This project involves a fully autonomous 2D drone simulator designed to be as realistic as possible. It incorporates LIDAR sensors, a gyroscope, an optical flow sensor, and a speed sensor, with each sensor's readings including a slight amount of noise to enhance realism.
+
+## Requirement for running
+Make sure to install the next libraries using Maven:
+- JGrapht library.
+- Mxgraph library.
 
 ## How to run
-After you installed the libraries required for the project, you can go do the SimulationWindow.java file and click the "RUN" button.
+After you installed the libraries required for the project, you can go to the SimulationWindow.java file and click the "RUN" button.
 
 ## Symbols 
 - Yellow mark - mapped area.
@@ -24,12 +24,7 @@ Really simple API with few buttons -
 - Toggle Map - allows you to hide the real map, entering to "real time" vision.
 - Open Graph - opens a graph representing the actual part of the area where the drone visited.
 
-## Requirement for running
-Make sure to install the next libraries using Maven:
-- JGrapht library.
-- Mxgraph library.
-
-## Images
+## Screenshots from the simluator
 ![](./Images/Buttons.png)
 
 ![](./Images/Map1.png)
